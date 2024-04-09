@@ -247,7 +247,7 @@ code {
   padding: 0 20px;
 }
 .container-inner {
-  max-width: 1120px;
+  max-width: 2520px;
   min-width: 320px;
   width: 100%;
   margin: 0 auto;
@@ -1876,12 +1876,12 @@ i.icon:before {
 .highlight .code .strong {
   font-weight: bold;
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1200px) {
   .nav-container-inner {
     display: block !important;
   }
 }
-@media only screen and (min-width: 480px) and (max-width: 959px) {
+@media only screen and (min-width: 480px) and (max-width: 1199px) {
   #header {
     padding-bottom: 50px;
   }
@@ -1963,7 +1963,7 @@ i.icon:before {
     transition: opacity 0.2s ease-in;
   }
   .main-body-inner #sidebar.expend {
-    width: 340px;
+    width: 140px;
     overflow-y: auto;
     z-index: 2;
     -webkit-transition: width 0.2s ease-in;
